@@ -1,0 +1,27 @@
+{
+  "method": "Chronological split with a shared calendar cutoff; no shuffling.",
+  "reporting_start": "2023-01-01",
+  "reporting_target_fraction": 0.2,
+  "datasets": {
+    "almond_monthly_2011_2025.csv": {
+      "source_sha256": "06bcc813cb066e710ba98badbb3e5af9ea8e6d67ad4a6452d562ae88c090ef2a",
+      "date_column": "month",
+      "total_rows": 180,
+      "development_rows": 144,
+      "reporting_rows": 36,
+      "reporting_fraction": 0.2,
+      "development_sha256": "863280efa468313d93562095ba989500dff446383f1104152c60031611b15a41",
+      "reporting_sha256": "c6336374bcaa858e7cab66c03cca13491f028acfb746225008aacec8d6f33ed9"
+    },
+    "GetDSCI.csv": {
+      "source_sha256": "8c197c5f4fd3eb4cb50cb0fb18dc6868c3a3c6df9550825e5409815581f8341f",
+      "date_column": "MapDate",
+      "total_rows": 784,
+      "development_rows": 627,
+      "reporting_rows": 157,
+      "reporting_fraction": 0.2002551020408163,
+      "development_sha256": "651854757fa63f612491d73e1c51383ccbe86dd47b25a3dd5757594de43e09a2",
+      "reporting_sha256": "fe2213d0be80abfa5d64d2326788703b6108afa022069242d62cd78e6dded24b"
+    }
+  }
+}
